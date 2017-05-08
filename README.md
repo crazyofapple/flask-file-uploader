@@ -5,6 +5,7 @@ Installation
 ------------
 install python 2.7 first
 
+    pip install flask
     pip install requests
     pip install argparse
 
