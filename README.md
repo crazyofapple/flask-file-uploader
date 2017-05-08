@@ -19,6 +19,11 @@ if you want to run on background
     
     nohup python /your/path/file-uploader/app.py -p 80 &
 
+kill backgorund process
+
+    ps -ef
+    kill {PID}
+
 Test
 ------------
 upload
