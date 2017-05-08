@@ -18,8 +18,8 @@ Test
 ------------
 upload
 
-    python test.py -s "127.0.0.1:80" -u "/your/file/path"
+    python test.py -s "127.0.0.1:80" -u "/your/file/path"
 
 download
 
-    python test.py -s "127.0.0.1:80" -d "filename" -f "/your/target/folder"
+    python test.py -s "127.0.0.1:80" -d "filename" -f "/your/target/folder"
