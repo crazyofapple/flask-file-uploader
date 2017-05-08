@@ -41,7 +41,7 @@ def download_file(filename):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()    
     parser.add_argument("-p", "--port", help="port", type=int, required=False, default=5000)
-    parser.add_argument("-h", "--host", help="host", type=str, required=False, host='0.0.0.0')
+    parser.add_argument("-h", "--host", help="host", type=str, required=False, default='0.0.0.0')
     args = parser.parse_args()
        
     app.run(host=args.host, port=args.port)                                
