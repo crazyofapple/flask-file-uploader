@@ -31,7 +31,7 @@ def upload_file():
             if not os.path.exists(app.config['UPLOAD_FOLDER']):
                 os.mkdir(app.config['UPLOAD_FOLDER'])
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            return jsonify({'result': True})
+            return jsonify({'result': True, 'url':'/upload/{0}'.format(filename)})
 
 @app.route('/download/<path:filename>', methods=['GET', 'POST'])
 def download_file(filename):    
