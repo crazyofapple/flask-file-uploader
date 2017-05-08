@@ -14,6 +14,10 @@ Usage
 start your API
 
     python app.py -p 80
+    
+if you want to run on background
+    
+    nohup python /your/path/file-uploader/app.py -p 80 &
 
 Test
 ------------
