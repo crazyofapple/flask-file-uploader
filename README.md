@@ -43,8 +43,10 @@ response json:
     
 - {'url': '/download/jzssxhmzyr58fuaase9wuck7xmkrlq3o2kb1pq7isdjb4woiu09elsuap9s98y9e', 'result': True}
 
-download
+get random key from response
 
-- get random key from response (jzssxhmzyr58fuaase9wuck7xmkrlq3o2kb1pq7isdjb4woiu09elsuap9s98y9e)
+- example: jzssxhmzyr58fuaase9wuck7xmkrlq3o2kb1pq7isdjb4woiu09elsuap9s98y9e)
 
-python test.py -s "127.0.0.1:80" -d "random_key_from_upload_response" -f "/your/local/folder"
+upload:
+
+    python test.py -s "127.0.0.1:80" -d "random_key_from_upload_response" -f "/your/local/folder"
