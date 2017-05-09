@@ -45,7 +45,7 @@ response json:
 
 get random key from response
 
-- example: jzssxhmzyr58fuaase9wuck7xmkrlq3o2kb1pq7isdjb4woiu09elsuap9s98y9e)
+- example: jzssxhmzyr58fuaase9wuck7xmkrlq3o2kb1pq7isdjb4woiu09elsuap9s98y9e
 
 upload:
 
