@@ -51,6 +51,14 @@ get random key from response
 
 - example: jzssxhmzyr58fuaase9wuck7xmkrlq3o2kb1pq7isdjb4woiu09elsuap9s98y9e
 
-upload:
+download:
 
     python test.py -s "127.0.0.1:80" -d "random_key_from_upload_response" -f "/your/local/folder"
+
+download by browser
+
+- get url from response json
+- example: http://{your ip}:{your port}/download/jzssxhmzyr58fuaase9wuck7xmkrlq3o2kb1pq7isdjb4woiu09elsuap9s98y9e
+- just paste on this url on your browser
+
+
