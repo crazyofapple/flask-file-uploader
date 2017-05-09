@@ -1,6 +1,10 @@
 # file-uploader
 user python 2.7 and flask to create a API that can upload and download files
 
+- if you don't want everyone can upload file, you can set password.
+- download url is random, only the uploader can know the download url.
+- provide test.py to upload and downlad easily.
+
 Installation
 ------------
 install python 2.7 first
